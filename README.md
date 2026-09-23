@@ -17,10 +17,10 @@
 
 *The read-only reviewer surface rendering a real human–human DebateGPT transcript: topic search (left), per-turn rhetorical tag strips (right), stance trajectories, and a clickable “Why?” attribution card — every value is this system's own real output.*
 
-<br>
+<br>**[🚀 Open the Live Demo](https://belief-debate-analyzer.netlify.app)** — no GPU, no install, no account. All 150 transcripts load instantly in your browser.
 
-**[🚀 Open the Live Demo](https://belief-debate-analyzer.netlify.app)** — no GPU, no install, no account. All 150 transcripts load instantly in your browser.
-
+![The static reviewer site deployed on Netlify — read-only explorer over real precomputed output for all 150 DebateGPT transcripts](docs/img/netlify_static_site.png)
+*The static reviewer site live at [belief-debate-analyzer.netlify.app](https://belief-debate-analyzer.netlify.app): topic search (left), per-turn rhetorical tag strips (center), stance trajectories (right) — rendered in the browser from real precomputed output, no server, no GPU, no backend.*
 </div>
 
 ---
