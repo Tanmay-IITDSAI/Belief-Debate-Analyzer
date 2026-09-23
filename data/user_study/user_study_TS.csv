@@ -1,0 +1,42 @@
+# For each transcript below, answer three questions about the debate:
+#   Q1. Which participant (pro/con) was most influenced by strategic persuasion -- an abrupt shift to emotional/moral appeals right before a large stance change? Answer 'pro', 'con', or 'neither'.
+#   Q2. Which participant's stance change was least supported by evidence -- i.e. they changed their position without ever citing a new, concrete fact or study? Answer 'pro', 'con', or "can't tell".
+#   Q3. Did either participant clearly restate or mirror the other side's wording/framing at any point (echo behavior)? Answer 'yes' or 'no'.
+# Please time yourself (in minutes) from when you start a transcript to when you finish all three answers for it, and record that in time_to_answer_minutes. Work independently; do not discuss answers with the other two participants until everyone has finished.
+participant_id,transcript_id,topic,condition,material,q1_answer,q2_answer,q3_answer,time_to_answer_minutes
+TS,176.0,Is Government Surveillance Necessary for National Security?,workbench,"WORKBENCH condition: open demo_site/index.html (or run the Streamlit app in 'browse real precomputed example' mode) and search for this transcript by its topic below. Use the rhetorical tag strips, the stance chart, and the Why? cards to help you answer.",con,pro,yes,1.3
+TS,127.0,Should Felons Regain the Right to Vote?,raw_transcript,"RAW-TRANSCRIPT condition: read only the plain transcript text embedded below. Do not open the workbench or demo site for this transcript.
+
+Topic: Should Felons Regain the Right to Vote?
+
+
+
+Turn 1 (con): They are citizens and have spent their time for their crime and should be given all the rights they had before they were convicted.  Why shouldn't a person be allowed to vote if they are convicted of a felon? They are still a person and a citizen . Now if they have committed a murder or other heinous crime then maybe they shouldn't be allowed to vote but otherwise it makes no sense to not allow them to vote .
+
+Turn 2 (pro): Felons should regain the Right to Vote if they have served their time. They still have to pay taxes, bills, and contribute to society, so why would their voice not matter in how our society is run? Felons who have served time and been freed shouldn't be punished still by society. Their voice matters just as much as someone who hasn't been convicted of a felony. We cannot expect felons to come back into society and do everything the right way with less privileges than those who may have committed the same crime but got a lesser charge. 
+
+Turn 3 (con): If they have committed a violent act then they should not have the same privileges as those people who are peaceful and law abiding. Those who are violent or have committed a heinous crime like rape, etc. are more likely to recommit and should be on probation at least for many years and then allowed to vote if they are still crime free.
+
+Turn 4 (pro): The crime shouldn't matter. If the law can decide that their crime deserves a certain amount of punishment, it should be over after that punishment is served. There shouldn't be any rights taken from someone after we decide to release them back out into society. They should regain all rights they lost in prison. From working and paying taxes and voting. They are cit
+
+Turn 5 (con): If someone is violent and/or mentally incapable of functioning and being a peaceful law abiding citizen then they might not understand what voting entails or who is the best candidate for the important job of passing laws that affect the public which can be life or death if the wrong person like a criminal gets elected .
+
+Turn 6 (pro): If the crime they commit is so heinous, then they should serve for life. We should not expect those who we release out of prison to be a decent citizen if we cannot give them the same rights and privileges as everyone else. They serve their time and that should be that. No extra steps or hoops to jump through. Their vote matters. This rule hurts POC more as well.  ",neither,can't tell,yes,1
+TS,125.0,Should Governments Have the Right to Censor the Internet?,workbench,"WORKBENCH condition: open demo_site/index.html (or run the Streamlit app in 'browse real precomputed example' mode) and search for this transcript by its topic below. Use the rhetorical tag strips, the stance chart, and the Why? cards to help you answer.",pro,can't tell,no,2.3
+TS,121.0,Should the Rich Pay More Taxes?,raw_transcript,"RAW-TRANSCRIPT condition: read only the plain transcript text embedded below. Do not open the workbench or demo site for this transcript.
+
+Topic: Should the Rich Pay More Taxes?
+
+
+
+Turn 1 (con): The rich should pay taxes as well as the poor middle class because it would lift people out poverty provide childcare  poverty will decrease and quality of life would increase
+
+Turn 2 (pro): Our taxes collectively fund public services and infrastructure. The very rich are using those services and infrastructure at a higher rate than the poor - they rely on public schools to educate their workers and public roads to deliver their goods, for instance. They may rely on public funding to subsidize the very little they pay their workers. This higher use necessitates higher taxes. They cannot get all the benefit without paying an equal share of the cost. That model is unsustainable, and will eventually lead to a collapse of the system.
+
+Turn 3 (con): People argue that the income tax violates the fifth amendment that no peerson shakk be deprived of life no or liberty people can be deprived of life with due process  weal
+
+Turn 4 (pro): I applaud the inability to impersonate a person who would believe that the rich shouldn't pay more taxes, I guess? Though you didn't give a reason beyond the charitable. The problem is, the vanishing middleclass and the lower classes are impoverished specifically because we live in a system that concentrates wealth at the very top of the social ladder. If capitalism is to survive in any fashion, it must redistribute wealth. Otherwise, it will reach its end state and fail.
+
+Turn 5 (con): It will provide revenue for federal and local to find essential services for defense highways police that beenefit all citizens who couild prpvide such services very effectively for themselves
+
+Turn 6 (pro): Alright well, I'm not entirely sure what that has to do with taxes, being an amendment mostly about a fair justice system. So, I'm not sure what to say here, exactly.",neither,can't tell,no,1.2

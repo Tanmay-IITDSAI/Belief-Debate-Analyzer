@@ -1,0 +1,10 @@
+{
+  "authoritative_problem_statement": "problem statement/EACL_2027_System_Demo_Track (2).pdf",
+  "reference_paper": "Research Papers/ji-et-al-2025-rhetorical-strategy-roberta paper.pdf",
+  "runtime_default": "prompted Llama-3.1-8B-Instruct scoring four Ji-typology dimensions in [0,1]",
+  "dimensions": ["causal", "empirical", "emotional", "moral"],
+  "classifier_plugin": "Optional only; RHETORICAL_MODEL_REPO must be independently verified if supplied.",
+  "previous_unverified_repository": "ji-et-al-2025/rhetorical-strategy-roberta",
+  "previous_repository_status": "404/not found",
+  "decision": "Do not block the primary pipeline on a Ji Hugging Face checkpoint. Use prompted Llama by default and record model revision/provenance for every real run."
+}

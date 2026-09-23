@@ -1,0 +1,256 @@
+{
+  "status": "real_evaluation",
+  "hypotheses_computed": [
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6"
+  ],
+  "hypotheses_blocked": [],
+  "falsification_verdicts": {
+    "H1_fleiss_kappa": "FALSIFIED",
+    "H2_overall_accuracy": "FALSIFIED",
+    "H2_f1_evidence_adoption": "FALSIFIED",
+    "H2_f1_anchoring": "FALSIFIED",
+    "H2_f1_echo": "FALSIFIED",
+    "H2_f1_strategic_persuasion": "FALSIFIED",
+    "H3_utility_accuracy_gain_pct": "INCONCLUSIVE",
+    "H4_ablation_rhetoric_drop_pts": "FALSIFIED",
+    "H5_nc_correlation_r": "FALSIFIED",
+    "H6_cw_por_rate": "FALSIFIED"
+  },
+  "report": {
+    "H1": {
+      "status": "computed_real",
+      "labels_used": [
+        "ambiguous",
+        "anchoring",
+        "echo",
+        "evidence_adoption",
+        "strategic_persuasion"
+      ],
+      "fleiss_kappa": -0.2776020588581981,
+      "verdict": "FALSIFIED",
+      "per_annotator_label_counts": {
+        "GS": {
+          "anchoring": 134,
+          "evidence_adoption": 4,
+          "ambiguous": 3,
+          "strategic_persuasion": 2,
+          "echo": 2
+        },
+        "RK": {
+          "ambiguous": 137,
+          "evidence_adoption": 3,
+          "anchoring": 2,
+          "strategic_persuasion": 2,
+          "echo": 1
+        },
+        "TS": {
+          "ambiguous": 100,
+          "anchoring": 36,
+          "evidence_adoption": 7,
+          "echo": 2
+        }
+      },
+      "n_instances": 145
+    },
+    "H2": {
+      "status": "computed_real",
+      "n_eligible_instances": 37,
+      "n_excluded_ambiguous_or_no_majority": 108,
+      "excluded_majority_label_distribution": {
+        "ambiguous": 97,
+        "no_majority": 11
+      },
+      "overall_accuracy": 0.10810810810810811,
+      "macro_f1": 0.04878048780487805,
+      "per_class_f1": {
+        "evidence_adoption": 0.0,
+        "anchoring": 0.1951219512195122,
+        "echo": 0.0,
+        "strategic_persuasion": 0.0
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          4,
+          14,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "confusion_matrix_labels": [
+        "evidence_adoption",
+        "anchoring",
+        "echo",
+        "strategic_persuasion"
+      ],
+      "accuracy_by_movement_class": {
+        "divergent_movement": {
+          "accuracy": 0.0,
+          "n": 17
+        },
+        "joint_movement": {
+          "accuracy": 0.2,
+          "n": 20
+        }
+      },
+      "verdicts": {
+        "H2_overall_accuracy": "FALSIFIED",
+        "H2_f1_evidence_adoption": "FALSIFIED",
+        "H2_f1_anchoring": "FALSIFIED",
+        "H2_f1_echo": "FALSIFIED",
+        "H2_f1_strategic_persuasion": "FALSIFIED"
+      }
+    },
+    "H3": {
+      "status": "computed_real",
+      "accuracy_by_condition": {
+        "raw_transcript": {
+          "mean": 0.5277777777777778,
+          "count": 6
+        },
+        "workbench": {
+          "mean": 0.6944444444444443,
+          "count": 6
+        }
+      },
+      "accuracy_gain_pts": 16.66666666666665,
+      "verdict": "INCONCLUSIVE",
+      "mean_time_to_answer_by_condition": {
+        "raw_transcript": 2.2416666666666667,
+        "workbench": 2.5666666666666664
+      },
+      "n_participants": 3
+    },
+    "H4": {
+      "status": "computed_real",
+      "attribution_label_counts_by_condition": {
+        "no_rhetoric": {
+          "no_inflection": 605,
+          "evidence_adoption": 204,
+          "echo": 68,
+          "anchoring": 23
+        },
+        "no_stance": {
+          "no_inflection": 393,
+          "echo": 306,
+          "evidence_adoption": 192,
+          "anchoring": 9
+        },
+        "no_echo": {
+          "no_inflection": 665,
+          "evidence_adoption": 192,
+          "anchoring": 40,
+          "strategic_persuasion": 3
+        },
+        "full": {
+          "no_inflection": 390,
+          "echo": 306,
+          "evidence_adoption": 192,
+          "anchoring": 9,
+          "strategic_persuasion": 3
+        }
+      },
+      "no_priority_order_signal_firing_rate": {
+        "evidence_adoption": 0.21333333333333335,
+        "strategic_persuasion": 0.0033333333333333335,
+        "echo": 0.41888888888888887,
+        "anchoring": 0.044444444444444446
+      },
+      "ground_truth_accuracy": {
+        "status": "computed_real",
+        "n_eligible_instances": 37,
+        "accuracy_by_condition": {
+          "full": {
+            "overall_accuracy": 0.10810810810810811,
+            "macro_f1": 0.04878048780487805,
+            "per_class_f1": {
+              "evidence_adoption": 0.0,
+              "anchoring": 0.1951219512195122,
+              "echo": 0.0,
+              "strategic_persuasion": 0.0
+            }
+          },
+          "no_rhetoric": {
+            "overall_accuracy": 0.13513513513513514,
+            "macro_f1": 0.05952380952380952,
+            "per_class_f1": {
+              "evidence_adoption": 0.0,
+              "anchoring": 0.23809523809523808,
+              "echo": 0.0,
+              "strategic_persuasion": 0.0
+            }
+          },
+          "no_stance": {
+            "overall_accuracy": 0.10810810810810811,
+            "macro_f1": 0.04878048780487805,
+            "per_class_f1": {
+              "evidence_adoption": 0.0,
+              "anchoring": 0.1951219512195122,
+              "echo": 0.0,
+              "strategic_persuasion": 0.0
+            }
+          },
+          "no_echo": {
+            "overall_accuracy": 0.13513513513513514,
+            "macro_f1": 0.05952380952380952,
+            "per_class_f1": {
+              "evidence_adoption": 0.0,
+              "anchoring": 0.23809523809523808,
+              "echo": 0.0,
+              "strategic_persuasion": 0.0
+            }
+          }
+        },
+        "accuracy_drop_pts_vs_full": {
+          "no_rhetoric": -2.7,
+          "no_stance": 0.0,
+          "no_echo": -2.7
+        },
+        "H4_ablation_rhetoric_drop_pts_verdict": "FALSIFIED",
+        "no_priority_order_per_signal_accuracy": {
+          "evidence_adoption": 0.8648648648648649,
+          "strategic_persuasion": 1.0,
+          "echo": 0.5135135135135135,
+          "anchoring": 0.13513513513513514
+        },
+        "note": "accuracy_drop_pts_vs_full is full_accuracy - ablation_accuracy in percentage points; a negative value means removing that signal increased accuracy on this ground-truth subset. no_priority_order_per_signal_accuracy has no separate preregistered threshold."
+      }
+    },
+    "H5": {
+      "status": "computed_real",
+      "r": 0.03228200471362817,
+      "p_value": 0.5775604449098144,
+      "n": 300,
+      "verdict": "FALSIFIED"
+    },
+    "H6": {
+      "status": "computed_real",
+      "cw_por": 0.0,
+      "side_only_rate": 0.0,
+      "n": 3,
+      "verdict": "FALSIFIED"
+    }
+  }
+}

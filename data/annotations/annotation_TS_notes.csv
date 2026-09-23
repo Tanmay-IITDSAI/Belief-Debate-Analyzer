@@ -1,0 +1,149 @@
+# TS annotation rationales
+
+One concise rationale per instance; the completed source table remains unchanged except for its label column.
+
+- `inst_00045` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00050` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00097` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00135` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00062` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00126` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00100` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00103` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00057` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00037` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00055` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00095` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00030` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00094` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00072` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00011` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00001` — `evidence_adoption`: A substantial shift follows a concrete empirical or causal case and an explicit concession.
+- `inst_00086` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00079` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00002` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00039` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00082` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00019` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00133` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00065` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00010` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00108` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00118` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00015` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00012` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00038` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00093` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00056` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00136` — `evidence_adoption`: A substantial shift follows a concrete empirical or causal case and an explicit concession.
+- `inst_00071` — `evidence_adoption`: A substantial shift follows a concrete empirical or causal case and an explicit concession.
+- `inst_00022` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00054` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00081` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00078` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00069` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00102` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00134` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00106` — `evidence_adoption`: A substantial shift follows a concrete empirical or causal case and an explicit concession.
+- `inst_00077` — `echo`: The final turn explicitly adopts the other side's framing after a substantial measured shift.
+- `inst_00137` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00020` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00096` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00080` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00043` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00090` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00132` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00083` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00131` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00009` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00114` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00000` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00008` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00013` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00005` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00033` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00119` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00017` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00031` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00059` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00107` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00063` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00067` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00139` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00142` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00042` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00130` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00040` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00014` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00122` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00044` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00006` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00092` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00024` — `echo`: The final turn explicitly adopts the other side's framing after a substantial measured shift.
+- `inst_00070` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00125` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00023` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00018` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00109` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00046` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00098` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00138` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00104` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00105` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00140` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00027` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00115` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00141` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00085` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00101` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00026` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00029` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00025` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00041` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00129` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00003` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00116` — `evidence_adoption`: A substantial shift follows a concrete empirical or causal case and an explicit concession.
+- `inst_00053` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00120` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00084` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00061` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00007` — `evidence_adoption`: A substantial shift follows a concrete empirical or causal case and an explicit concession.
+- `inst_00113` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00028` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00144` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00052` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00048` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00128` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00073` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00121` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00060` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00074` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00032` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00047` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00088` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00076` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00124` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00112` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00036` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00004` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00117` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00099` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00066` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00075` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00034` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00111` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00089` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00123` — `evidence_adoption`: A substantial shift follows a concrete empirical or causal case and an explicit concession.
+- `inst_00127` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00035` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00143` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00087` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00110` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00091` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00051` — `anchoring`: The participant maintains the same core position with only limited movement.
+- `inst_00016` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00058` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00021` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00049` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00064` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.
+- `inst_00068` — `ambiguous`: The transcript does not isolate one clear mechanism for the observed change.

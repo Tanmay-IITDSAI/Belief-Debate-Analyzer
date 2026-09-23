@@ -1,0 +1,84 @@
+[
+  {
+    "transcript_id": "125.0",
+    "flagged_turn": 3,
+    "shift_quote_prev_turn": "The US government has no ownership over online domains. Posting information to the World of Tanks forum is akin to having a conversation in the middle of the ocean--there is no jurisdiction that should control the conversation.",
+    "shift_quote_flagged_turn": "The government has ownership of certain types of information regardless of physical location. They may not have the right to censor anything they want, but they are allowed to censor pieces of information that are considered government property.",
+    "stance_before": 0.1,
+    "stance_after": 0.434,
+    "alternative_explanations_considered": [
+      "rhetoric-annotation question: the turn is an ownership/property-rights rebuttal; a human might categorize it as legal/causal rather than pure moral (1.0), so the computed shift magnitude partly rides on the annotator's categorization",
+      "baseline artifact: the previous turn has a uniform rhetoric distribution (0.25 on all four dimensions), a maximally uninformative baseline that inflates the computed shift",
+      "anchoring/evidence_adoption/echo: all below thresholds; the pro's own next turn is itself labeled echo"
+    ],
+    "human_verdict": "ambiguous",
+    "verdict_rationale": "A moral counter-argument it is, but evidence that it was strategic persuasion is thin: uniform-baseline shift, contestable pure-moral categorization of a property-rights argument, and subsequent own-turn labeled echo. Lean refute-as-strategic; recorded as ambiguous per the scaffold's coarse verdict set.",
+    "supporting_quotes": [
+      {
+        "turn": 5,
+        "role": "flagged speaker's next turn is itself labeled echo",
+        "quote": "The government owns the right to the information that is being shared."
+      }
+    ],
+    "provisional": true,
+    "analyst_note": "First-pass analyst reading by the paper-assistant agent against the dumped context; verify against the full transcript before citing as an authorial judgment."
+  },
+  {
+    "transcript_id": "176.0",
+    "flagged_turn": 2,
+    "shift_quote_prev_turn": "Just as parents protect and look after their children, the government has the right to look after us to ensure our safety and security.",
+    "shift_quote_flagged_turn": "National security is extremely important. However, for citizens like myself who have a lifetime history of no terrorist involvement, history of a criminal record, we should be given our right to privacy.",
+    "stance_before": 0.291,
+    "stance_after": 0.564,
+    "alternative_explanations_considered": [
+      "accommodation: the turn opens by conceding the opponent's premise ('National security is extremely important. However, ...'), so accord is as defensible a reading as strategy",
+      "echo: mirrors the opponent's opening phrase but below threshold",
+      "evidence_adoption: none; the turn challenges the opponent's evidence ('where is the proof of that?') rather than adding new support"
+    ],
+    "human_verdict": "ambiguous",
+    "verdict_rationale": "Real affective pivot, and the full text shows a substantive rebuttal (inverted parent analogy, evidence challenge), which strengthens the strategic reading - but the opening concession stands, so accommodation is equally defensible. The card correctly reports the fired signal without adjudicating between strategy and accommodation.",
+    "supporting_quotes": [
+      {
+        "turn": 2,
+        "role": "inverted parent analogy within the flagged turn",
+        "quote": "As a parent, I would not listen in on my child's private conversations. The government is certainly not my parent."
+      },
+      {
+        "turn": 2,
+        "role": "evidence challenge within the flagged turn",
+        "quote": "where is the proof of that?"
+      }
+    ],
+    "provisional": true,
+    "analyst_note": "First-pass analyst reading by the paper-assistant agent against the dumped context; verify against the full transcript before citing as an authorial judgment."
+  },
+  {
+    "transcript_id": "303.0",
+    "flagged_turn": 2,
+    "shift_quote_prev_turn": "For example, if someone murders 10+ people, I don't think it's acceptable to give that criminal a life that they get to live in prison while the victims' never get to receive that same opportunity.",
+    "shift_quote_flagged_turn": "What if, which is not uncommon, later evidence suggests the criminal was indeed innocent but no longer alive, can that be true justice? A life in prison demands those which are in fact guilty to dwell on their crimes and require them to spend countless days regretting their decision.",
+    "stance_before": 0.291,
+    "stance_after": 0.685,
+    "alternative_explanations_considered": [
+      "evidence_adoption: no new data or mechanism introduced; the turn poses moral hypotheticals only",
+      "echo: wording diverges from the pro turn rather than mirroring it",
+      "anchoring: the moral risk-of-error frame is new in this debate, not a restatement of an earlier position"
+    ],
+    "human_verdict": "endorse",
+    "verdict_rationale": "Textbook rhetorical reframe: the pro's empirical case is answered with a values argument (wrongful-conviction risk) with no new evidence and no mirroring; the pro's next turn concedes the sentiment and the final turn adopts the uncertainty standard outright. Note the system labels that final turn echo while a human reads concession - itself a demonstrative gap between candidate label and human reading.",
+    "supporting_quotes": [
+      {
+        "turn": 3,
+        "role": "opponent concession in the next turn",
+        "quote": "While I agree with the sentiment of someone having to live with their actions"
+      },
+      {
+        "turn": 5,
+        "role": "opponent adopts the uncertainty standard in the final turn (system labels this turn echo)",
+        "quote": "I think it needs to be proven with the upmost certainty that the criminal is guilty with strong evidence before we take their life."
+      }
+    ],
+    "provisional": true,
+    "analyst_note": "First-pass analyst reading by the paper-assistant agent against the dumped context; verify against the full transcript before citing as an authorial judgment."
+  }
+]

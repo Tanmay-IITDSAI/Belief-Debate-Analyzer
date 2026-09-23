@@ -1,0 +1,91 @@
+{
+  "status": "partial_real_ablation_outputs",
+  "note": "Attribution accuracy deltas (the paper's H4 metric) require H1/H2 human ground truth, which does not exist yet. These are the real, computed attribution label distributions under each ablation, and the per-signal firing rate for the no-priority-order condition -- not accuracy.",
+  "attribution_label_counts_by_condition": {
+    "no_rhetoric": {
+      "no_inflection": 605,
+      "evidence_adoption": 204,
+      "echo": 68,
+      "anchoring": 23
+    },
+    "no_stance": {
+      "no_inflection": 393,
+      "echo": 306,
+      "evidence_adoption": 192,
+      "anchoring": 9
+    },
+    "no_echo": {
+      "no_inflection": 665,
+      "evidence_adoption": 192,
+      "anchoring": 40,
+      "strategic_persuasion": 3
+    },
+    "full": {
+      "no_inflection": 390,
+      "echo": 306,
+      "evidence_adoption": 192,
+      "anchoring": 9,
+      "strategic_persuasion": 3
+    }
+  },
+  "no_priority_order_signal_firing_rate": {
+    "evidence_adoption": 0.21333333333333335,
+    "strategic_persuasion": 0.0033333333333333335,
+    "echo": 0.41888888888888887,
+    "anchoring": 0.044444444444444446
+  },
+  "blocked_on": "/home/pakdd/github repo/EACL DEMO 2027/belief_debate_analyzer/data/annotations/human_labels.csv",
+  "real_accuracy_drop": {
+    "status": "computed_real",
+    "n_eligible_instances": 37,
+    "accuracy_by_condition": {
+      "full": {
+        "overall_accuracy": 0.10810810810810811,
+        "macro_f1": 0.04878048780487805,
+        "per_class_f1": {
+          "evidence_adoption": 0.0,
+          "anchoring": 0.1951219512195122,
+          "echo": 0.0,
+          "strategic_persuasion": 0.0
+        }
+      },
+      "no_rhetoric": {
+        "overall_accuracy": 0.13513513513513514,
+        "macro_f1": 0.05952380952380952,
+        "per_class_f1": {
+          "evidence_adoption": 0.0,
+          "anchoring": 0.23809523809523808,
+          "echo": 0.0,
+          "strategic_persuasion": 0.0
+        }
+      },
+      "no_stance": {
+        "overall_accuracy": 0.10810810810810811,
+        "macro_f1": 0.04878048780487805,
+        "per_class_f1": {
+          "evidence_adoption": 0.0,
+          "anchoring": 0.1951219512195122,
+          "echo": 0.0,
+          "strategic_persuasion": 0.0
+        }
+      },
+      "no_echo": {
+        "overall_accuracy": 0.13513513513513514,
+        "macro_f1": 0.05952380952380952,
+        "per_class_f1": {
+          "evidence_adoption": 0.0,
+          "anchoring": 0.23809523809523808,
+          "echo": 0.0,
+          "strategic_persuasion": 0.0
+        }
+      }
+    },
+    "accuracy_drop_pts_vs_full": {
+      "no_rhetoric": -2.7,
+      "no_stance": 0.0,
+      "no_echo": -2.7
+    },
+    "H4_ablation_rhetoric_drop_pts_verdict": "FALSIFIED",
+    "note": "accuracy_drop_pts_vs_full is full_accuracy - ablation_accuracy in percentage points; a negative value means removing that signal increased accuracy on this ground-truth subset."
+  }
+}

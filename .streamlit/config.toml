@@ -1,0 +1,12 @@
+# Workbench theme - mirrors the injected CSS in app.py and demo_site/style.css,
+# so Streamlit's native widgets (selectbox, buttons, expanders) match the design.
+[theme]
+base = "dark"
+primaryColor = "#5b8cff"
+backgroundColor = "#0f1115"
+secondaryBackgroundColor = "#171a21"
+textColor = "#e8eaed"
+font = "sans serif"
+
+[server]
+headless = true

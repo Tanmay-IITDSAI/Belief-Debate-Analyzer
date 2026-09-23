@@ -1,0 +1,14 @@
+.venv/
+.env
+.env.*
+HF_TOKEN.md
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# All checkpoints (~5 MB) and all datasets -- including the full 866 MB
+# data/raw/args_me_corpus/args-me.jsonl -- are tracked on purpose.
+# Note: GitHub rejects files over 100 MB on a plain push; if you host this on
+# GitHub, either use Git LFS (git lfs track "data/raw/args_me_corpus/args-me.jsonl")
+# or push to a host without that limit. The file itself is kept as-is here.

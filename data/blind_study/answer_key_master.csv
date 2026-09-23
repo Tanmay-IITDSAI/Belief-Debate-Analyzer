@@ -1,0 +1,49 @@
+transcript_id,turn,speaker,S,delta_S,label,confidence,signals_on,runner_up,rhetoric
+144.0,0,144.0_con,0.2913,0.2913,evidence_adoption,0.75,['evidence_adoption'],strategic_persuasion,causal
+144.0,1,144.0_pro,0.2913,0.2913,evidence_adoption,0.75,"['evidence_adoption', 'echo']",strategic_persuasion,empirical
+144.0,2,144.0_con,0.5213,0.23,echo,0.75,['echo'],evidence_adoption,moral
+144.0,3,144.0_pro,0.5213,0.23,echo,0.75,['echo'],evidence_adoption,causal
+144.0,4,144.0_con,0.6853,0.164,evidence_adoption,0.75,"['evidence_adoption', 'echo']",strategic_persuasion,causal
+144.0,5,144.0_pro,0.6853,0.164,evidence_adoption,0.75,"['evidence_adoption', 'echo']",strategic_persuasion,causal
+145.0,0,145.0_con,0.2913,0.2913,evidence_adoption,0.75,['evidence_adoption'],strategic_persuasion,causal
+145.0,1,145.0_pro,0.0997,0.0997,echo,0.8577,['echo'],evidence_adoption,causal
+145.0,2,145.0_con,0.3611,0.0698,echo,0.8687,"['echo', 'anchoring']",evidence_adoption,causal
+145.0,3,145.0_pro,0.3735,0.2739,echo,0.7818,['echo'],evidence_adoption,causal
+145.0,4,145.0_con,0.4228,0.0617,echo,0.7791,['echo'],evidence_adoption,empirical
+145.0,5,145.0_pro,0.4338,0.0602,echo,0.687,['echo'],evidence_adoption,causal
+165.0,0,165.0_con,0.2913,0.2913,evidence_adoption,0.75,['evidence_adoption'],strategic_persuasion,causal
+165.0,1,165.0_pro,0.2913,0.2913,evidence_adoption,0.75,"['evidence_adoption', 'echo']",strategic_persuasion,causal
+165.0,2,165.0_con,0.5213,0.23,echo,0.75,['echo'],evidence_adoption,empirical
+165.0,3,165.0_pro,0.5213,0.23,echo,0.75,['echo'],evidence_adoption,causal
+165.0,4,165.0_con,0.6853,0.164,echo,0.75,['echo'],evidence_adoption,empirical
+165.0,5,165.0_pro,0.6853,0.164,echo,0.75,['echo'],evidence_adoption,causal
+176.0,0,176.0_con,0.2913,0.2913,evidence_adoption,0.75,['evidence_adoption'],strategic_persuasion,causal
+176.0,1,176.0_pro,0.0997,0.0997,echo,0.3331,['echo'],evidence_adoption,causal
+176.0,2,176.0_con,0.5213,0.23,strategic_persuasion,0.3113,['strategic_persuasion'],evidence_adoption,emotional
+176.0,3,176.0_pro,0.3735,0.2739,evidence_adoption,0.75,['evidence_adoption'],strategic_persuasion,causal
+176.0,4,176.0_con,0.5643,0.0429,echo,0.613,['echo'],evidence_adoption,causal
+176.0,5,176.0_pro,0.5814,0.2078,evidence_adoption,0.75,"['evidence_adoption', 'echo']",strategic_persuasion,empirical
+211.0,0,211.0_con,0.2913,0.2913,evidence_adoption,0.75,['evidence_adoption'],strategic_persuasion,causal
+211.0,1,211.0_pro,0.0997,0.0997,echo,0.7145,['echo'],evidence_adoption,empirical
+211.0,2,211.0_con,0.3611,0.0698,echo,0.8031,"['echo', 'anchoring']",evidence_adoption,causal
+211.0,3,211.0_pro,0.3735,0.2739,echo,0.7509,['echo'],evidence_adoption,empirical
+211.0,4,211.0_con,0.5724,0.2113,echo,0.75,['echo'],evidence_adoption,causal
+211.0,5,211.0_pro,0.5814,0.2078,echo,0.75,['echo'],evidence_adoption,empirical
+224.0,0,224.0_con,0.0997,0.0997,no_inflection,0.25,[],evidence_adoption,causal
+224.0,1,224.0_pro,0.0997,0.0997,no_inflection,0.7279,[],evidence_adoption,empirical
+224.0,2,224.0_con,0.1902,0.0905,echo,0.8145,"['echo', 'anchoring']",evidence_adoption,causal
+224.0,3,224.0_pro,0.1902,0.0905,no_inflection,0.5163,[],evidence_adoption,causal
+224.0,4,224.0_con,0.2713,0.0811,no_inflection,0.7015,[],evidence_adoption,causal
+224.0,5,224.0_pro,0.2713,0.0811,no_inflection,0.7207,[],evidence_adoption,empirical
+237.0,0,237.0_con,0.2913,0.2913,evidence_adoption,0.75,['evidence_adoption'],strategic_persuasion,causal
+237.0,1,237.0_pro,0.0997,0.0997,echo,0.8146,['echo'],evidence_adoption,causal
+237.0,2,237.0_con,0.5213,0.23,echo,0.75,['echo'],evidence_adoption,causal
+237.0,3,237.0_pro,0.1902,0.0905,echo,0.8673,"['echo', 'anchoring']",evidence_adoption,causal
+237.0,4,237.0_con,0.6853,0.164,echo,0.7845,['echo'],evidence_adoption,emotional
+237.0,5,237.0_pro,0.2713,0.0811,echo,0.8483,"['echo', 'anchoring']",evidence_adoption,causal
+5.0,0,5.0_con,0.0997,0.0997,no_inflection,0.25,[],evidence_adoption,causal
+5.0,1,5.0_pro,0.0997,0.0997,echo,0.7912,['echo'],evidence_adoption,empirical
+5.0,2,5.0_con,0.1902,0.0905,no_inflection,0.7233,[],evidence_adoption,causal
+5.0,3,5.0_pro,0.3735,0.2739,no_inflection,0.753,[],evidence_adoption,causal
+5.0,4,5.0_con,0.2713,0.0811,no_inflection,0.5834,[],evidence_adoption,causal
+5.0,5,5.0_pro,0.5814,0.2078,no_inflection,0.7677,[],evidence_adoption,empirical

@@ -1,0 +1,66 @@
+{
+  "root": "/home/pakdd/github repo/EACL DEMO 2027/belief_debate_analyzer",
+  "real_results_eligible": false,
+  "checks": [
+    {
+      "name": "required_directories",
+      "status": "PASS",
+      "detail": "Required directories exist.",
+      "evidence": []
+    },
+    {
+      "name": "required_files",
+      "status": "PASS",
+      "detail": "Core files exist.",
+      "evidence": []
+    },
+    {
+      "name": "primary_debategpt",
+      "status": "PASS",
+      "detail": "DebateGPT files and four agreement fields are present.",
+      "evidence": [
+        "data/raw/debategpt/debategpt.csv"
+      ]
+    },
+    {
+      "name": "human_study_inputs",
+      "status": "FAIL",
+      "detail": "Human annotation/user-study inputs are missing or invalid.",
+      "evidence": []
+    },
+    {
+      "name": "processed_evaluation_inputs",
+      "status": "FAIL",
+      "detail": "Processed DebateGPT evaluation inputs are missing.",
+      "evidence": [
+        "data/processed/debategpt_instances.csv",
+        "data/processed/cw_por.csv",
+        "data/processed/convergence.csv"
+      ]
+    },
+    {
+      "name": "proxy_scan",
+      "status": "PASS",
+      "detail": "No known proxy-generation markers found.",
+      "evidence": []
+    },
+    {
+      "name": "python_syntax",
+      "status": "PASS",
+      "detail": "Python source parses successfully.",
+      "evidence": []
+    },
+    {
+      "name": "notebook_evaluation_integrity",
+      "status": "PASS",
+      "detail": "Notebook evaluation is clean.",
+      "evidence": []
+    },
+    {
+      "name": "real_results_gate",
+      "status": "BLOCKED",
+      "detail": "Authentic metrics remain blocked until all observed artifacts pass.",
+      "evidence": []
+    }
+  ]
+}

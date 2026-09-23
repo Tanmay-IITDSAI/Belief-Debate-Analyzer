@@ -1,0 +1,3 @@
+condition,n_items,mean_mech_overlap,mean_text_grounded,mean_confidence,mean_usefulness
+A,16,0.2083,0.4062,4.25,
+B,16,0.2917,0.375,4.125,3.7778

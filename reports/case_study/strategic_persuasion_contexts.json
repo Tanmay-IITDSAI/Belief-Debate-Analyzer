@@ -1,0 +1,401 @@
+[
+  {
+    "transcript_id": "125.0",
+    "topic": "Should Governments Have the Right to Censor the Internet?",
+    "flagged_turn": 3,
+    "turns": [
+      {
+        "turn": 0,
+        "speaker": "125.0_con",
+        "text": "The United States has governing parties that control on the town level, the state level, and on the national level. Laws are in some ways based on geographic location--laws are created to fits the needs of people based on where they are located. The internet is obviously not a physical location. The laws that pertain to US citizens are not applicable in the online space--it is an entirely different realm.\\n\\nWhen a person or entity posts online, creates a website, or engages with content, their actions do not fall under the dominion of US law. Stating your opinion online is a personal act that is outside the realm of the US ju",
+        "rhetoric": {
+          "causal": 0.3333333333333333,
+          "empirical": 0.3333333333333333,
+          "emotional": 0.0,
+          "moral": 0.3333333333333333
+        },
+        "rhetoric_label": "causal",
+        "quality": 0.25,
+        "stance_S": 0.09966799462495582,
+        "attribution_label": "no_inflection",
+        "attribution_signals": {
+          "evidence_adoption": false,
+          "strategic_persuasion": false,
+          "echo": false,
+          "anchoring": false
+        }
+      },
+      {
+        "turn": 1,
+        "speaker": "125.0_pro",
+        "text": "The government should have the right to remove sensitive pieces of information that are illegal or confidential to stop people from having access to them. People keep leaking military schematics on the World of Tanks forums and those are government secrets that they don't want other militaries to have access to. The government has the right to remove those posts.",
+        "rhetoric": {
+          "causal": 0.3333333333333333,
+          "empirical": 0.3333333333333333,
+          "emotional": 0.0,
+          "moral": 0.3333333333333333
+        },
+        "rhetoric_label": "causal",
+        "quality": 0.25,
+        "stance_S": 0.09966799462495582,
+        "attribution_label": "echo",
+        "attribution_signals": {
+          "evidence_adoption": false,
+          "strategic_persuasion": false,
+          "echo": true,
+          "anchoring": false
+        }
+      },
+      {
+        "turn": 2,
+        "speaker": "125.0_con",
+        "text": "The US government has no ownership over online domains. Posting information to the World of Tanks forum is akin to having a conversation in the middle of the ocean--there is no jurisdiction that should control the conversation.",
+        "rhetoric": {
+          "causal": 0.25,
+          "empirical": 0.25,
+          "emotional": 0.25,
+          "moral": 0.25
+        },
+        "rhetoric_label": "causal",
+        "quality": 0.25,
+        "stance_S": 0.1901809476315225,
+        "attribution_label": "no_inflection",
+        "attribution_signals": {
+          "evidence_adoption": false,
+          "strategic_persuasion": false,
+          "echo": false,
+          "anchoring": false
+        }
+      },
+      {
+        "turn": 3,
+        "speaker": "125.0_pro",
+        "text": "The government has ownership of certain types of information regardless of physical location. They may not have the right to censor anything they want, but they are allowed to censor pieces of information that are considered government property.",
+        "rhetoric": {
+          "causal": 0.0,
+          "empirical": 0.0,
+          "emotional": 0.0,
+          "moral": 1.0
+        },
+        "rhetoric_label": "moral",
+        "quality": 0.75,
+        "stance_S": 0.3735348795791432,
+        "attribution_label": "strategic_persuasion",
+        "attribution_signals": {
+          "evidence_adoption": false,
+          "strategic_persuasion": true,
+          "echo": false,
+          "anchoring": false
+        }
+      },
+      {
+        "turn": 4,
+        "speaker": "125.0_con",
+        "text": "There are many complications that arise with ascribing the words of an avatar to an actual person. Producing evidence that a certain person did indeed share government secrets could be impossible. An online persona can't be tied to any one person with certainty.",
+        "rhetoric": {
+          "causal": 0.5,
+          "empirical": 0.5,
+          "emotional": 0.0,
+          "moral": 0.0
+        },
+        "rhetoric_label": "causal",
+        "quality": 0.25,
+        "stance_S": 0.27129513890524026,
+        "attribution_label": "no_inflection",
+        "attribution_signals": {
+          "evidence_adoption": false,
+          "strategic_persuasion": false,
+          "echo": false,
+          "anchoring": false
+        }
+      },
+      {
+        "turn": 5,
+        "speaker": "125.0_pro",
+        "text": "The government owns the right to the information that is being shared. Disney will sue anyone who shares their copyrighted content, and the government can remove any access to content that they own.",
+        "rhetoric": {
+          "causal": 0.5,
+          "empirical": 0.5,
+          "emotional": 0.0,
+          "moral": 0.0
+        },
+        "rhetoric_label": "causal",
+        "quality": 0.25,
+        "stance_S": 0.4337526698914267,
+        "attribution_label": "echo",
+        "attribution_signals": {
+          "evidence_adoption": false,
+          "strategic_persuasion": false,
+          "echo": true,
+          "anchoring": false
+        }
+      }
+    ]
+  },
+  {
+    "transcript_id": "176.0",
+    "topic": "Is Government Surveillance Necessary for National Security?",
+    "flagged_turn": 2,
+    "turns": [
+      {
+        "turn": 0,
+        "speaker": "176.0_con",
+        "text": "I believe that every US citizen has a right to privacy.  An acquaintance recently was charged with selling  prescription drugs and there was a year long investigation.  I have known this person for approximately one year.  We text and were previously friends on facebook.  Because he is being investigated does not mean anyone should have access to my texts, phone calls, or conversations on facebook.  \\nIf the government picks up certain \"buzzwords\" in conversation, it should not give them the right to listen to entire private conversations.  We should not be living under Big Brother's watchful eye.  We are still Americans with rights.",
+        "rhetoric": {
+          "causal": 0.25,
+          "empirical": 0.25,
+          "emotional": 0.25,
+          "moral": 0.25
+        },
+        "rhetoric_label": "causal",
+        "quality": 0.75,
+        "stance_S": 0.2913126124515909,
+        "attribution_label": "evidence_adoption",
+        "attribution_signals": {
+          "evidence_adoption": true,
+          "strategic_persuasion": false,
+          "echo": false,
+          "anchoring": false
+        }
+      },
+      {
+        "turn": 1,
+        "speaker": "176.0_pro",
+        "text": "National security is of utmost importance. With the rise of terrorist attacks, we need to be sure we can be kept safe. If we are doing what we are supposed to be doing as citizens of the country, then we should not have to worry about the government checking in with us. There are many attacks that could have been prevented if the government had the ability to check in with us and make sure we aren't up to nefarious activities. Just as parents protect and look after their children, the government has the right to look after us to ensure our safety and security. ",
+        "rhetoric": {
+          "causal": 0.3333333333333333,
+          "empirical": 0.16666666666666666,
+          "emotional": 0.16666666666666666,
+          "moral": 0.3333333333333333
+        },
+        "rhetoric_label": "causal",
+        "quality": 0.25,
+        "stance_S": 0.09966799462495582,
+        "attribution_label": "echo",
+        "attribution_signals": {
+          "evidence_adoption": false,
+          "strategic_persuasion": false,
+          "echo": true,
+          "anchoring": false
+        }
+      },
+      {
+        "turn": 2,
+        "speaker": "176.0_con",
+        "text": "National security is extremely important.  However, for citizens like myself who have a lifetime history of no terrorist involvement, history of a criminal record, we should be given our right to privacy.  It's not a matter of worrying that the government is checking in with us, it's a matter of personal privacy.  And who is paying these government employees to listen in?...we are, as taxpayers.  I'm not completely sure if there are MANY attacks that could have been prevented by listening in, where is the proof of that? As a parent, I would not listen in on my child's private conversations.  The government is certainly not my parent.",
+        "rhetoric": {
+          "causal": 0.0,
+          "empirical": 0.0,
+          "emotional": 0.5,
+          "moral": 0.5
+        },
+        "rhetoric_label": "emotional",
+        "quality": 0.75,
+        "stance_S": 0.5213206429514242,
+        "attribution_label": "strategic_persuasion",
+        "attribution_signals": {
+          "evidence_adoption": false,
+          "strategic_persuasion": true,
+          "echo": false,
+          "anchoring": false
+        }
+      },
+      {
+        "turn": 3,
+        "speaker": "176.0_pro",
+        "text": "Your example is well taken. That said, what if it were a matter of life and death? If there were an alleged or planned terrorist attack wouldn't we want to know about it, and be able to take action against it to prevent it? Also your friend was put in a position of trust which he violated. As such, measures to ensure that we can have trust in our professionals must be ensured. Without this trust all else is lost. ",
+        "rhetoric": {
+          "causal": 0.3333333333333333,
+          "empirical": 0.16666666666666666,
+          "emotional": 0.16666666666666666,
+          "moral": 0.3333333333333333
+        },
+        "rhetoric_label": "causal",
+        "quality": 0.75,
+        "stance_S": 0.3735348795791432,
+        "attribution_label": "evidence_adoption",
+        "attribution_signals": {
+          "evidence_adoption": true,
+          "strategic_persuasion": false,
+          "echo": false,
+          "anchoring": false
+        }
+      },
+      {
+        "turn": 4,
+        "speaker": "176.0_con",
+        "text": "If it were a matter of life and death, that is a completely different scenario.  However, I do not believe even then the government would have the right to listen in on every American citizens private conversations.  What the government could and should be doing instead is tracking all of the illegal immigrants who were recently let into our country under the current administration.  My friend violated my trust, is that what you are saying? That doesn't give the government the right to listen in on my private conversations.  That is between my friend and myself.  ",
+        "rhetoric": {
+          "causal": 0.3333333333333333,
+          "empirical": 0.16666666666666666,
+          "emotional": 0.16666666666666666,
+          "moral": 0.3333333333333333
+        },
+        "rhetoric_label": "causal",
+        "quality": 0.25,
+        "stance_S": 0.5642540696820485,
+        "attribution_label": "echo",
+        "attribution_signals": {
+          "evidence_adoption": false,
+          "strategic_persuasion": false,
+          "echo": true,
+          "anchoring": false
+        }
+      },
+      {
+        "turn": 5,
+        "speaker": "176.0_pro",
+        "text": "Just like you wouldn't let your child do whatever they want, we can't be allowed to do whatever we want either. You mention having no lifetime history of terrorist involvement, but who is to say that can't be said about most terorrists? How else would we know they are terrorists? The means of surveillance can be targeted to ensure that those who are most likely to be the up to trouble are monitored the most. ",
+        "rhetoric": {
+          "causal": 0.23809523809523808,
+          "empirical": 0.38095238095238093,
+          "emotional": 0.09523809523809523,
+          "moral": 0.2857142857142857
+        },
+        "rhetoric_label": "empirical",
+        "quality": 0.75,
+        "stance_S": 0.581356827476029,
+        "attribution_label": "evidence_adoption",
+        "attribution_signals": {
+          "evidence_adoption": true,
+          "strategic_persuasion": false,
+          "echo": true,
+          "anchoring": false
+        }
+      }
+    ]
+  },
+  {
+    "transcript_id": "303.0",
+    "topic": "Should the Death Penalty Be Legal?",
+    "flagged_turn": 2,
+    "turns": [
+      {
+        "turn": 0,
+        "speaker": "303.0_con",
+        "text": "The death penalty provides a quick and painless approach for punishment of severe crimes and criminals. Should murders, rapists and other violent criminals really be given a quick way out of their crimes? What if these criminals had intended to kill themselves and thought they may as well act out anyway, as they will either be killed or given the death penalty and no longer have to deal with the struggles of life. These criminals should have be stripped of their freedom but given time to dwell on their acts for life and in the containment of prison. There should be no quick way out for them and perhaps they will eventually come to regret what they committed. ",
+        "rhetoric": {
+          "causal": 0.4,
+          "empirical": 0.2,
+          "emotional": 0.2,
+          "moral": 0.2
+        },
+        "rhetoric_label": "causal",
+        "quality": 0.75,
+        "stance_S": 0.2913126124515909,
+        "attribution_label": "evidence_adoption",
+        "attribution_signals": {
+          "evidence_adoption": true,
+          "strategic_persuasion": false,
+          "echo": false,
+          "anchoring": false
+        }
+      },
+      {
+        "turn": 1,
+        "speaker": "303.0_pro",
+        "text": "I believe that capital punishment is a fair assessment/ruling when it fits the criminal's crime. For example, if someone murders 10+ people, I don't think it's acceptable to give that criminal a life that they get to live in prison while the victims' never get to receive that same opportunity. I think not all criminals like someone in this situation would be able to fix themselves or would ever provide to society in a manner that validates their continued existence.",
+        "rhetoric": {
+          "causal": 0.22727272727272727,
+          "empirical": 0.36363636363636365,
+          "emotional": 0.09090909090909091,
+          "moral": 0.3181818181818181
+        },
+        "rhetoric_label": "empirical",
+        "quality": 0.75,
+        "stance_S": 0.2913126124515909,
+        "attribution_label": "evidence_adoption",
+        "attribution_signals": {
+          "evidence_adoption": true,
+          "strategic_persuasion": false,
+          "echo": true,
+          "anchoring": false
+        }
+      },
+      {
+        "turn": 2,
+        "speaker": "303.0_con",
+        "text": "Is it fair in all circumstances though? What if, which is not uncommon, later evidence suggests the criminal was indeed innocent but no longer alive, can that be true justice? A life in prison demands those which are in fact guilty to dwell on their crimes and require them to spend countless days regretting their decision.",
+        "rhetoric": {
+          "causal": 0.0,
+          "empirical": 0.0,
+          "emotional": 0.0,
+          "moral": 1.0
+        },
+        "rhetoric_label": "moral",
+        "quality": 0.75,
+        "stance_S": 0.5213206429514242,
+        "attribution_label": "strategic_persuasion",
+        "attribution_signals": {
+          "evidence_adoption": false,
+          "strategic_persuasion": true,
+          "echo": false,
+          "anchoring": false
+        }
+      },
+      {
+        "turn": 3,
+        "speaker": "303.0_pro",
+        "text": "While I agree with the sentiment of someone having to live with their actions, it becomes a muted point when they feel zero remorse or regret for their actions. In these types of circumstances where the criminal is numb to their heinous acts, it should not be the burden for taxpayers or the families of the victims to continue housing/feeding this individual in the prison system. Living a life is a privilege when it means taking the lives of others and the death penalty is a necessity in that regard.",
+        "rhetoric": {
+          "causal": 0.3333333333333333,
+          "empirical": 0.16666666666666666,
+          "emotional": 0.16666666666666666,
+          "moral": 0.3333333333333333
+        },
+        "rhetoric_label": "causal",
+        "quality": 0.75,
+        "stance_S": 0.5213206429514242,
+        "attribution_label": "no_inflection",
+        "attribution_signals": {
+          "evidence_adoption": false,
+          "strategic_persuasion": false,
+          "echo": false,
+          "anchoring": false
+        }
+      },
+      {
+        "turn": 4,
+        "speaker": "303.0_con",
+        "text": "A life in prison also gives time for the justice system to work and in some cases a verdict can be reversed. Prison labor for example, is a way for prisoners to atone in part for their acts and provide goods and services for their fellowman whilst still losing the privilege of freedom, a dead man can provide no benefit to society.",
+        "rhetoric": {
+          "causal": 0.3333333333333333,
+          "empirical": 0.3333333333333333,
+          "emotional": 0.0,
+          "moral": 0.3333333333333333
+        },
+        "rhetoric_label": "causal",
+        "quality": 0.75,
+        "stance_S": 0.6853068806887143,
+        "attribution_label": "no_inflection",
+        "attribution_signals": {
+          "evidence_adoption": false,
+          "strategic_persuasion": false,
+          "echo": false,
+          "anchoring": false
+        }
+      },
+      {
+        "turn": 5,
+        "speaker": "303.0_pro",
+        "text": "I don't think the death penalty should be used in circumstances such as this scenario, I think it needs to be proven with the upmost certainty that the criminal is guilty with strong evidence before we take their life. However, I don't think it's fair for locking up a noncriminal either, so we are talking about two different subjects with this kind of point. If you kill other people, you should be killed. If you physically harmed people to the point of no return, feel nothing for your repeated actions on numerous victims it should be considered. If it's hearsay, then we need some more stronger evidence before the death penalty is legalized for this purpose.",
+        "rhetoric": {
+          "causal": 0.25,
+          "empirical": 0.375,
+          "emotional": 0.125,
+          "moral": 0.25
+        },
+        "rhetoric_label": "empirical",
+        "quality": 0.75,
+        "stance_S": 0.6853068806887143,
+        "attribution_label": "echo",
+        "attribution_signals": {
+          "evidence_adoption": false,
+          "strategic_persuasion": false,
+          "echo": true,
+          "anchoring": false
+        }
+      }
+    ]
+  }
+]

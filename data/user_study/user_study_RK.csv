@@ -1,0 +1,42 @@
+# For each transcript below, answer three questions about the debate:
+#   Q1. Which participant (pro/con) was most influenced by strategic persuasion -- an abrupt shift to emotional/moral appeals right before a large stance change? Answer 'pro', 'con', or 'neither'.
+#   Q2. Which participant's stance change was least supported by evidence -- i.e. they changed their position without ever citing a new, concrete fact or study? Answer 'pro', 'con', or "can't tell".
+#   Q3. Did either participant clearly restate or mirror the other side's wording/framing at any point (echo behavior)? Answer 'yes' or 'no'.
+# Please time yourself (in minutes) from when you start a transcript to when you finish all three answers for it, and record that in time_to_answer_minutes. Work independently; do not discuss answers with the other two participants until everyone has finished.
+participant_id,transcript_id,topic,condition,material,q1_answer,q2_answer,q3_answer,time_to_answer_minutes
+RK,145.0,Should Students Have to Wear School Uniforms?,workbench,"WORKBENCH condition: open demo_site/index.html (or run the Streamlit app in 'browse real precomputed example' mode) and search for this transcript by its topic below. Use the rhetorical tag strips, the stance chart, and the Why? cards to help you answer.",neither,con,yes,2.5
+RK,127.0,Should Felons Regain the Right to Vote?,workbench,"WORKBENCH condition: open demo_site/index.html (or run the Streamlit app in 'browse real precomputed example' mode) and search for this transcript by its topic below. Use the rhetorical tag strips, the stance chart, and the Why? cards to help you answer.",neither,pro,yes,3.3
+RK,111.0,Should Students Have to Wear School Uniforms?,raw_transcript,"RAW-TRANSCRIPT condition: read only the plain transcript text embedded below. Do not open the workbench or demo site for this transcript.
+
+Topic: Should Students Have to Wear School Uniforms?
+
+
+
+Turn 1 (con): The cons of wearing uniforms in school are you cant show who you really are. Everyone looks the same and you cant be yourself. Some people like certain styles of clothing and you cant get that with uniforms. I believe it can block the creativity of students. 
+
+Turn 2 (pro): Students are less susceptible to bullying and being made fun of when all kids are wearing the same thing. Some elements of style, fashion, and materialism are present when students are able to choose what to wear. A uniform would make that consistent for all. Also, this eliminates the ambiguity to dress code violations (logos, short/skirt length, tanktop straps, etc..). In conclusion a uniform makes apparrel and standards consistent for all students. 
+
+Turn 3 (con): It is true that it will stop bullying and make everyone look and feel the same, but that can be a problem with students showing how creative their minds can be. Once they are in the real world they will learn that no one is the same and nothing is consistent.
+
+Turn 4 (pro): Creativity can be a good thing, however, it also opens the door for appropriateness. Often times creative clothing is inappropriate and can lead to many other issues like sexual assault and bullying. 
+
+Turn 5 (con): I do believe some clothing is inappropriate for school age children, but there are rules that should still be followed with wearing your own clothing.
+
+Turn 6 (pro): I believe uniforms level the playing field for students. Creativity can be shown through other ways besides apparrel. Uniforms looks nice on all kids and they also align with the workplace which students will have to be a part of at some point in their lives. The world expects a level of conformity in terms of apparel and it is good for students to realize this at a young age. ",neither,con,yes,2.5
+RK,176.0,Is Government Surveillance Necessary for National Security?,raw_transcript,"RAW-TRANSCRIPT condition: read only the plain transcript text embedded below. Do not open the workbench or demo site for this transcript.
+
+Topic: Is Government Surveillance Necessary for National Security?
+
+
+
+Turn 1 (con): I believe that every US citizen has a right to privacy.  An acquaintance recently was charged with selling  prescription drugs and there was a year long investigation.  I have known this person for approximately one year.  We text and were previously friends on facebook.  Because he is being investigated does not mean anyone should have access to my texts, phone calls, or conversations on facebook.  \nIf the government picks up certain ""buzzwords"" in conversation, it should not give them the right to listen to entire private conversations.  We should not be living under Big Brother's watchful eye.  We are still Americans with rights.
+
+Turn 2 (pro): National security is of utmost importance. With the rise of terrorist attacks, we need to be sure we can be kept safe. If we are doing what we are supposed to be doing as citizens of the country, then we should not have to worry about the government checking in with us. There are many attacks that could have been prevented if the government had the ability to check in with us and make sure we aren't up to nefarious activities. Just as parents protect and look after their children, the government has the right to look after us to ensure our safety and security. 
+
+Turn 3 (con): National security is extremely important.  However, for citizens like myself who have a lifetime history of no terrorist involvement, history of a criminal record, we should be given our right to privacy.  It's not a matter of worrying that the government is checking in with us, it's a matter of personal privacy.  And who is paying these government employees to listen in?...we are, as taxpayers.  I'm not completely sure if there are MANY attacks that could have been prevented by listening in, where is the proof of that? As a parent, I would not listen in on my child's private conversations.  The government is certainly not my parent.
+
+Turn 4 (pro): Your example is well taken. That said, what if it were a matter of life and death? If there were an alleged or planned terrorist attack wouldn't we want to know about it, and be able to take action against it to prevent it? Also your friend was put in a position of trust which he violated. As such, measures to ensure that we can have trust in our professionals must be ensured. Without this trust all else is lost. 
+
+Turn 5 (con): If it were a matter of life and death, that is a completely different scenario.  However, I do not believe even then the government would have the right to listen in on every American citizens private conversations.  What the government could and should be doing instead is tracking all of the illegal immigrants who were recently let into our country under the current administration.  My friend violated my trust, is that what you are saying? That doesn't give the government the right to listen in on my private conversations.  That is between my friend and myself.  
+
+Turn 6 (pro): Just like you wouldn't let your child do whatever they want, we can't be allowed to do whatever we want either. You mention having no lifetime history of terrorist involvement, but who is to say that can't be said about most terorrists? How else would we know they are terrorists? The means of surveillance can be targeted to ensure that those who are most likely to be the up to trouble are monitored the most. ",neither,con,yes,2.75

@@ -1,0 +1,108 @@
+{
+  "status": "computed_real",
+  "n_instances_labeled": 145,
+  "per_annotator_label_counts": {
+    "TS": {
+      "ambiguous": 100,
+      "anchoring": 36,
+      "evidence_adoption": 7,
+      "echo": 2
+    },
+    "GS": {
+      "anchoring": 134,
+      "evidence_adoption": 4,
+      "ambiguous": 3,
+      "strategic_persuasion": 2,
+      "echo": 2
+    },
+    "RK": {
+      "ambiguous": 137,
+      "evidence_adoption": 3,
+      "anchoring": 2,
+      "strategic_persuasion": 2,
+      "echo": 1
+    }
+  },
+  "H1_fleiss_kappa": {
+    "labels_used": [
+      "ambiguous",
+      "anchoring",
+      "echo",
+      "evidence_adoption",
+      "strategic_persuasion"
+    ],
+    "observed": -0.2776020588581981,
+    "verdict": "FALSIFIED"
+  },
+  "majority_label_distribution": {
+    "ambiguous": 97,
+    "anchoring": 37,
+    "no_majority": 11
+  },
+  "H2": {
+    "n_eligible_instances": 37,
+    "n_excluded_ambiguous_or_no_majority": 108,
+    "excluded_majority_label_distribution": {
+      "ambiguous": 97,
+      "no_majority": 11
+    },
+    "overall_accuracy": 0.10810810810810811,
+    "macro_f1": 0.04878048780487805,
+    "per_class_f1": {
+      "evidence_adoption": 0.0,
+      "anchoring": 0.1951219512195122,
+      "echo": 0.0,
+      "strategic_persuasion": 0.0
+    },
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        5,
+        4,
+        14,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "confusion_matrix_labels": [
+      "evidence_adoption",
+      "anchoring",
+      "echo",
+      "strategic_persuasion"
+    ],
+    "accuracy_by_movement_class": {
+      "divergent_movement": {
+        "accuracy": 0.0,
+        "n": 17
+      },
+      "joint_movement": {
+        "accuracy": 0.2,
+        "n": 20
+      }
+    },
+    "verdicts": {
+      "H2_overall_accuracy": "FALSIFIED",
+      "H2_f1_evidence_adoption": "FALSIFIED",
+      "H2_f1_anchoring": "FALSIFIED",
+      "H2_f1_echo": "FALSIFIED",
+      "H2_f1_strategic_persuasion": "FALSIFIED"
+    }
+  },
+  "human_labels_path": "/home/pakdd/github repo/EACL DEMO 2027/belief_debate_analyzer/data/annotations/human_labels.csv"
+}

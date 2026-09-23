@@ -1,0 +1,32 @@
+{
+  "status": "partial_evaluation_completed",
+  "h5_nca_correlation": {
+    "r": 0.03228200471362814,
+    "p_value": 0.5775604449098144,
+    "n": 300
+  },
+  "h5_falsification_verdict": {
+    "observed": 0.03228200471362814,
+    "expected": 0.5,
+    "falsify_below": 0.2,
+    "verdict": "FALSIFIED"
+  },
+  "h6_cw_por": {
+    "status": "completed",
+    "result": {
+      "cw_por": 0.0,
+      "side_only_rate": 0.0,
+      "n": 3
+    },
+    "falsification_verdict": {
+      "observed": 0.0,
+      "expected": 0.65,
+      "falsify_below": 0.45,
+      "verdict": "FALSIFIED"
+    }
+  },
+  "remaining_requirements": {
+    "h1_h2_h4": "/home/pakdd/github repo/EACL DEMO 2027/belief_debate_analyzer/data/annotations/human_labels.csv",
+    "h3": "/home/pakdd/github repo/EACL DEMO 2027/belief_debate_analyzer/data/user_study/results.csv"
+  }
+}

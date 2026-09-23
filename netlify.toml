@@ -1,0 +1,13 @@
+# Static reviewer demo: plain HTML/CSS/JS, no build step.
+# Works as-is when Netlify's base directory is the repo root
+# (leave "Base directory" empty in the Netlify UI).
+[build]
+  publish = "demo_site"
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

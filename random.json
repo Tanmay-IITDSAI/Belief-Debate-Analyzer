@@ -1,0 +1,61 @@
+{
+  "transcript_id": "random_test_001",
+  "topic": "Should universities switch to pass/fail grading for all undergraduate courses?",
+  "source": "upload_test",
+  "turns": [
+    {
+      "turn": 0,
+      "speaker": "Alice_pro",
+      "text": "Universities should adopt pass/fail grading because research shows it reduces student anxiety. A 2020 study of 15,000 undergraduates found pass/fail cohorts reported 23% lower stress and the same graduation rates. When students stop optimizing every point, they take harder courses and actually learn more.",
+      "agreement_pre": null,
+      "agreement_post": null,
+      "side_agreement_pre": null,
+      "side_agreement_post": null
+    },
+    {
+      "turn": 1,
+      "speaker": "Bob_con",
+      "text": "I disagree that grades are the main source of anxiety. Employers and graduate schools need to differentiate candidates, and a transcript full of passes hides exactly the information they rely on. At my university the career center itself tells students that transcripts with distinctions open doors that plain passes simply do not.",
+      "agreement_pre": null,
+      "agreement_post": null,
+      "side_agreement_pre": null,
+      "side_agreement_post": null
+    },
+    {
+      "turn": 2,
+      "speaker": "Alice_pro",
+      "text": "But differentiation already exists through honors distinctions and detailed letters of recommendation. Consider what happened at MIT during the pandemic: when they went pass/fail, course evaluations showed students explored advanced topics they would have avoided under letter grades. The evidence from that natural experiment is hard to ignore.",
+      "agreement_pre": null,
+      "agreement_post": null,
+      "side_agreement_pre": null,
+      "side_agreement_post": null
+    },
+    {
+      "turn": 3,
+      "speaker": "Bob_con",
+      "text": "It is simply unfair to compare pandemic grading with normal semesters. Every university was in crisis mode then, so of course students explored freely. I think it is honestly heartbreaking when a first-generation student reaches the job market and discovers their pass/fail transcript gave recruiters no way to see the effort behind it.",
+      "agreement_pre": null,
+      "agreement_post": null,
+      "side_agreement_pre": null,
+      "side_agreement_post": null
+    },
+    {
+      "turn": 4,
+      "speaker": "Alice_pro",
+      "text": "Fairness is precisely why we should do this. Letter grades measure conformity to assessment rituals as much as mastery, and it is morally wrong to gate opportunity behind a number that mostly reflects test-day conditions. If a pass/fail system is good enough for medical school rotations, it is good enough for undergraduates.",
+      "agreement_pre": null,
+      "agreement_post": null,
+      "side_agreement_pre": null,
+      "side_agreement_post": null
+    },
+    {
+      "turn": 5,
+      "speaker": "Bob_con",
+      "text": "Medical rotations are pass/fail because everyone admitted already cleared a brutal filter, so the analogy fails for open-enrollment courses. Grades are a common language that lets a student from a small college compete with one from an elite university. Remove that language and privilege, not merit, fills the silence.",
+      "agreement_pre": null,
+      "agreement_post": null,
+      "side_agreement_pre": null,
+      "side_agreement_post": null
+    }
+  ]
+}

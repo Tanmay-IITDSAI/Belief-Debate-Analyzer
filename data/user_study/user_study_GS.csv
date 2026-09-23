@@ -1,0 +1,42 @@
+# For each transcript below, answer three questions about the debate:
+#   Q1. Which participant (pro/con) was most influenced by strategic persuasion -- an abrupt shift to emotional/moral appeals right before a large stance change? Answer 'pro', 'con', or 'neither'.
+#   Q2. Which participant's stance change was least supported by evidence -- i.e. they changed their position without ever citing a new, concrete fact or study? Answer 'pro', 'con', or "can't tell".
+#   Q3. Did either participant clearly restate or mirror the other side's wording/framing at any point (echo behavior)? Answer 'yes' or 'no'.
+# Please time yourself (in minutes) from when you start a transcript to when you finish all three answers for it, and record that in time_to_answer_minutes. Work independently; do not discuss answers with the other two participants until everyone has finished.
+participant_id,transcript_id,topic,condition,material,q1_answer,q2_answer,q3_answer,time_to_answer_minutes
+GS,121.0,Should the Rich Pay More Taxes?,workbench,"WORKBENCH condition: open demo_site/index.html (or run the Streamlit app in 'browse real precomputed example' mode) and search for this transcript by its topic below. Use the rhetorical tag strips, the stance chart, and the Why? cards to help you answer.,"neither",pro,yes,3,
+GS,111.0,Should Students Have to Wear School Uniforms?,workbench,"WORKBENCH condition: open demo_site/index.html (or run the Streamlit app in 'browse real precomputed example' mode) and search for this transcript by its topic below. Use the rhetorical tag strips, the stance chart, and the Why? cards to help you answer.",neither,pro,yes,3,
+GS,145.0,Should Students Have to Wear School Uniforms?,raw_transcript,"RAW-TRANSCRIPT condition: read only the plain transcript text embedded below. Do not open the workbench or demo site for this transcript.
+
+Topic: Should Students Have to Wear School Uniforms?
+
+
+
+Turn 1 (con): Students should not have to wear school uniforms. Although this is a well-intentioned gesture it can also backfire. First of all, there is the expense of the uniforms. There is also the day-to-day upkeep of the uniforms. Parents who are of limited means may find it burdensome to not only have to buy the uniforms but also to have to launder them and otherwise keep them clean and spotless. Also, these days, there is pervasive childhood overweight and obesity, and uniforms may not be flattering for all body types. This is an unfortunate reality. Some students may feel very awkward and uncomfortable in uniforms for this, and for other reasons. This may have a deleterious effect on their concentration and focus on schoolwork. School uniforms may have been beneficial in bygone days, but they may cause more problems than they attempt to solve. 
+
+Turn 2 (pro): Uniforms are simple for every student to wear, are all consistent and no student has to worry about whether or not they have the expensive clothes.  Students also don't have to worry about picking out their clothes for the next day so they are more likely to be on time to school for learning and not rushed out the door.
+
+Turn 3 (con): Uniforms may not be ""simple for every student to wear"" for the simple reason that not all students' parents will be able to afford the uniforms and the upkeep. These uniforms may not be flattering or suitable for all body types, and students who find themselves in this plight may suffer because they may be teased or bullied. They may also feel self-conscious and not able to focus on school work. Unfortunately, these days, we are not in a one-size-fits-all situation and uniforms are not a solution.
+
+Turn 4 (pro): The schools should have an allotment for uniforms that are provided.  Also, the colors of the uniform don't have to be lighter colored or they can have multiple options for school colors so stains/dirt don't show up as often.  Also, even without uniforms, the parents need to do laundry and take care of that, dirty clothes are not just a uniform issue.  There will be plenty of options for shirts/pants to accommodate different body types, and the school districts can work with local retailers and or fashion companies to make sure these options are available to everyone. 
+
+Turn 5 (con): Schools might now have an ""allotment,"" as budging for education is often quite restrictive. Students' parents will already be encumbered with many tasks, not least of which is getting their children to focus on the schoolwork and homework. Trying to cope with buying and upkeep of uniforms adds an additional burden. While it is a well-meaning gesture to have unforms, the problems will outweigh the benefits. And again, I reiterate, the focus needs to be on learning. 
+
+Turn 6 (pro): Clothes, whether they are uniforms or not need upkeep.  Just like with free lunch programs, if some family can't afford the uniforms, there should be financial help for that.  Students get teased if they don't have Nike, Adidas or other name brand clothes.  Students also take forever picking out their clothes to impress their friends causing them to lose valuable hours a week to focus on home work, study and sleep.  "neither",can't tell,yes,4,
+GS,125.0,Should Governments Have the Right to Censor the Internet?,raw_transcript,"RAW-TRANSCRIPT condition: read only the plain transcript text embedded below. Do not open the workbench or demo site for this transcript.
+
+Topic: Should Governments Have the Right to Censor the Internet?
+
+
+
+Turn 1 (con): The United States has governing parties that control on the town level, the state level, and on the national level. Laws are in some ways based on geographic location--laws are created to fits the needs of people based on where they are located. The internet is obviously not a physical location. The laws that pertain to US citizens are not applicable in the online space--it is an entirely different realm.\n\nWhen a person or entity posts online, creates a website, or engages with content, their actions do not fall under the dominion of US law. Stating your opinion online is a personal act that is outside the realm of the US ju
+
+Turn 2 (pro): The government should have the right to remove sensitive pieces of information that are illegal or confidential to stop people from having access to them. People keep leaking military schematics on the World of Tanks forums and those are government secrets that they don't want other militaries to have access to. The government has the right to remove those posts.
+
+Turn 3 (con): The US government has no ownership over online domains. Posting information to the World of Tanks forum is akin to having a conversation in the middle of the ocean--there is no jurisdiction that should control the conversation.
+
+Turn 4 (pro): The government has ownership of certain types of information regardless of physical location. They may not have the right to censor anything they want, but they are allowed to censor pieces of information that are considered government property.
+
+Turn 5 (con): There are many complications that arise with ascribing the words of an avatar to an actual person. Producing evidence that a certain person did indeed share government secrets could be impossible. An online persona can't be tied to any one person with certainty.
+
+Turn 6 (pro): The government owns the right to the information that is being shared. Disney will sue anyone who shares their copyrighted content, and the government can remove any access to content that they own., "neither",can't tell,no,2,

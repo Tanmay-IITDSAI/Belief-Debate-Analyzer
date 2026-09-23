@@ -1,0 +1,21 @@
+# H3 real results - fill in the 4 blank columns below for each row, then save.
+# q1_answer: who was most influenced by strategic persuasion -- pro / con / neither
+# q2_answer: whose stance change was least supported by evidence -- pro / con / can't tell
+# q3_answer: did either participant show echo behavior -- yes / no
+# time_to_answer_minutes: real minutes spent on that transcript's 3 questions (a number, e.g. 6 or 4.5)
+# Use each row's own material (see the corresponding user_study_<ID>.csv packet for the transcript text
+# or workbench instructions). Do not fabricate/estimate answers -- leave blank if genuinely unanswered.
+participant_id,transcript_id,topic,condition,q1_answer,q2_answer,q3_answer,time_to_answer_minutes
+participant_id,transcript_id,topic,condition,q1_answer,q2_answer,q3_answer,time_to_answer_minutes
+GS,125.0,Should Governments Have the Right to Censor the Internet?,raw_transcript,neither,can't tell,no,2
+GS,145.0,Should Students Have to Wear School Uniforms?,raw_transcript,neither,can't tell,yes,4
+GS,111.0,Should Students Have to Wear School Uniforms?,workbench,neither,pro,yes,3
+GS,121.0,Should the Rich Pay More Taxes?,workbench,neither,pro,yes,3
+RK,111.0,Should Students Have to Wear School Uniforms?,raw_transcript,neither,con,yes,2.5
+RK,176.0,Is Government Surveillance Necessary for National Security?,raw_transcript,neither,con,yes,2.75
+RK,127.0,Should Felons Regain the Right to Vote?,workbench,neither,pro,yes,3.3
+RK,145.0,Should Students Have to Wear School Uniforms?,workbench,neither,con,yes,2.5
+TS,121.0,Should the Rich Pay More Taxes?,raw_transcript,neither,can't tell,no,1.2
+TS,127.0,Should Felons Regain the Right to Vote?,raw_transcript,neither,can't tell,yes,1
+TS,125.0,Should Governments Have the Right to Censor the Internet?,workbench,pro,can't tell,no,2.3
+TS,176.0,Is Government Surveillance Necessary for National Security?,workbench,con,pro,yes,1.3

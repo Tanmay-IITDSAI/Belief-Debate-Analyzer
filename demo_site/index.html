@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Belief-Tracking Debate Analyzer — Interactive Demo</title>
+<meta name="description" content="Interactive workbench for diagnosing persuasion dynamics in multi-agent LLM debates. Explore real DebateGPT human-human transcripts with rhetorical annotation, stance trajectories, and attribution." />
+<link rel="stylesheet" href="style.css" />
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">🜍</span>
+      <div>
+        <h1>Belief-Tracking Debate Analyzer</h1>
+        <p class="tagline">Diagnosing why agents change their minds in multi-agent debates</p>
+      </div>
+    </div>
+    <div class="topbar-links">
+      <span class="badge">Read-only demo &middot; real precomputed DebateGPT analysis</span>
+      <a href="https://huggingface.co/datasets/frasalvi/debategpt" target="_blank" rel="noopener">DebateGPT corpus</a>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <label class="search-label" for="search">Search debates by topic</label>
+      <input id="search" type="search" placeholder="e.g. basic income, penny…" autocomplete="off" />
+      <div id="debate-count" class="debate-count"></div>
+      <ul id="debate-list" class="debate-list" role="listbox" aria-label="Debate transcripts"></ul>
+    </aside>
+
+    <section class="workbench" id="workbench">
+      <div class="empty-state" id="empty-state">
+        <h2>Select a debate to begin</h2>
+        <p>Choose any of the 150 real human-human DebateGPT transcripts on the left. Each one has been fully processed by the actual system: rhetorical annotation, stance-dynamics computation (Eq. 1&ndash;2), and turn-by-turn attribution.</p>
+      </div>
+
+      <div id="debate-view" class="debate-view" hidden>
+        <div id="hero"></div>
+        <div class="panel panel-transcript">
+          <div class="panel-header">
+            <h2 id="debate-topic">Panel 2 &mdash; Transcript &amp; rhetorical tag strips</h2>
+            <div class="legend">
+              <span class="legend-item"><i class="swatch swatch-causal"></i>causal</span>
+              <span class="legend-item"><i class="swatch swatch-empirical"></i>empirical</span>
+              <span class="legend-item"><i class="swatch swatch-emotional"></i>emotional</span>
+              <span class="legend-item"><i class="swatch swatch-moral"></i>moral</span>
+            </div>
+          </div>
+          <div id="transcript" class="transcript"></div>
+        </div>
+
+        <div class="panel panel-stance">
+          <div class="panel-header">
+            <h2>Panel 3 &mdash; Stance trajectories</h2>
+          </div>
+          <canvas id="stance-chart" height="220"></canvas>
+          <div class="dt-sub">Per-turn stance movement</div>
+          <div id="movement"></div>
+        </div>
+
+        <div class="panel panel-why">
+          <div class="panel-header">
+            <h2>&ldquo;Why?&rdquo; attribution card</h2>
+          </div>
+          <div id="why-card" class="why-card why-card-empty">
+            Click any highlighted turn in the transcript to inspect its attribution signals.
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>All values shown are real outputs of this system's own pipeline over the public DebateGPT human-human corpus (Salvi et al., 2025) &mdash; nothing on this page is generated or estimated for display purposes. This static view is read-only; the full interactive workbench (live debate generation &amp; analysis) requires a GPU and is available as an installable package.</p>
+    <p class="credit">Made by <strong>Tanmay Kumar Shrivastava</strong> &middot; Belief-Tracking Debate Analyzer &middot; EACL 2027 System Demonstrations Track</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

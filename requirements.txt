@@ -1,0 +1,32 @@
+# Core (needed for the "mock" backend used throughout the shipped notebooks)
+numpy>=1.26.0
+pandas>=2.1.0
+scipy>=1.11.0
+scikit-learn>=1.4.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+tabulate>=0.9.0
+nbformat>=5.10.0
+jupyter>=1.0.0
+ipykernel>=6.29.0
+nbclient>=0.10.0
+
+# "hf" backend (real models: RoBERTa rhetorical classifier, Llama-3.1-8B-Instruct,
+# sentence-transformers). Required only if you set backend="hf" / FORCE_BACKEND=hf.
+torch>=2.1.0
+transformers>=4.44.0
+accelerate>=0.33.0
+bitsandbytes>=0.43.0
+sentence-transformers>=3.0.0
+huggingface_hub>=0.24.0
+
+# Optional: real dataset ingestion for args.me via HF `datasets`
+datasets>=2.20.0
+
+# Optional: print-ready PDF annotation packets for human annotators (notebook 01)
+fpdf2>=2.7.0
+
+# Interactive workbench (app.py) -- the installable-package / live-demo track
+streamlit>=1.60.0
+plotly>=5.20.0
+
